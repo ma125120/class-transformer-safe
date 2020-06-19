@@ -1,16 +1,16 @@
 {
   "name": "class-transformer-safe",
-  "version": "0.2.4",
+  "version": "0.2.8",
   "description": "Proper decorator-based transformation / serialization / deserialization of plain javascript objects to class constructors",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "private": true,
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pleerock/class-transformer.git"
+    "url": "https://github.com/ma125120/class-transformer-safe.git"
   },
   "bugs": {
-    "url": "https://github.com/pleerock/class-transformer/issues"
+    "url": "https://github.com/ma125120/class-transformer-safe/issues"
   },
   "tags": [
     "serialization",

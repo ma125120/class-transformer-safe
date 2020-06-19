@@ -1,10 +1,4 @@
-# class-transformer
-
-[![Build Status](https://travis-ci.org/typestack/class-transformer.svg?branch=master)](https://travis-ci.org/typestack/class-transformer)
-[![codecov](https://codecov.io/gh/typestack/class-transformer/branch/master/graph/badge.svg)](https://codecov.io/gh/typestack/class-transformer)
-[![npm version](https://badge.fury.io/js/class-transformer.svg)](https://badge.fury.io/js/class-transformer)
-[![Dependency Status](https://david-dm.org/typestack/class-transformer.svg)](https://david-dm.org/typestack/class-transformer)
-[![Join the chat at https://gitter.im/typestack/class-transformer](https://badges.gitter.im/typestack/class-transformer.svg)](https://gitter.im/typestack/class-transformer?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# class-transformer-safe
 
 ## 注意
 由于 [class-transformer](https://github.com/typestack/class-transformer) 0.2.3及之前的版本中， classToPlainFromExist 污染了 Object 的 prototype，安装依赖会出现警告，所以 fork 下来以后注释了 classToPlainFromExist 相关部分
